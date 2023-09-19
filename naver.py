@@ -5,10 +5,10 @@ import re
 import json
 import csv
 
-file=open("news.csv",mode="w",encoding="utf-8",newline="")
+file=open("news0802.csv",mode="w",encoding="utf-8",newline="")
 writer=csv.writer(file)
-start_date = datetime(2023, 8, 1)
-end_date = datetime(2023, 8, 1)
+start_date = datetime(2023, 8, 2)
+end_date = datetime(2023, 8, 2)
 oid = '001'
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36'}
 headers2 ={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36'}
